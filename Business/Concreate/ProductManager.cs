@@ -18,7 +18,7 @@ namespace Business.Concreate
         }
 
         public List<Product> GetAll()
-        {
+        { 
             return _productdal.GetAll();
         }
     }
